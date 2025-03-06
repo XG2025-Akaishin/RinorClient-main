@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.rinorclient.client.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinKeyboard",
+    "MixinKeyboardInput",
+    "MixinMain",
+    "MixinMinecraftClient",
+    "MixinMouse",
+    "MixinInGameHud",
+    "MixinGameRenderer",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
