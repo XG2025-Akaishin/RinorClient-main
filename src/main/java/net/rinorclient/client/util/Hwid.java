@@ -28,7 +28,7 @@ public class Hwid {
     public static void Display() {
         DisplayUtil frame = new DisplayUtil();
         frame.setVisible(true);
-        //throw new RuntimeException("Verification was unsuccessful!");
+        //No revelar informacion al crashear
         RuntimeException v = new RuntimeException("Verification was unsuccessful!");
         v.setStackTrace(null);
         v.initCause(null);
